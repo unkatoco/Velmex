@@ -108,10 +108,6 @@ class Example(QtGui.QWidget):
         hBtn.setToolTip('Sends all motors to their zero position')      
         grid.addWidget(hBtn, 5,4,1,3)
         
-        # "Fire Laser" button
-        laserBtn = QtGui.QPushButton('Fire Laser',self)
-        grid.addWidget(laserBtn,6,1,1,3                                                 )
-        
         self.show()
     
     def center(self):        
